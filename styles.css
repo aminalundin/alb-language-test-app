@@ -1,0 +1,214 @@
+@media screen and (min-width: 480px) {
+    body {
+        height: 100vh;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 100vh;
+        width: 80px;
+        padding-top: 30px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: black;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    a:hover {
+        text-decoration: underline;
+    }
+    
+    main {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    aside {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    label {
+        padding: 11px;
+        
+    }
+    
+    form {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 40px;
+        
+    }
+    
+    .buttons {
+        padding-left: 5px;
+    }
+    
+    input {
+        border: none;
+        height: 30px;
+        background-color: white;
+       
+    }
+    
+    button {
+        border: none;
+        background-color: white;
+    }
+    
+    .ticks {
+        padding-left: 14px;
+        
+    }
+    
+    .input-field {
+        border: 1px solid lightgray;
+        border-radius: 10px;
+    }
+    
+    .clear {
+        padding-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    nav {
+        padding: 20px;
+        background-color: #E12C2B;
+        width: 80%;
+        height: 100dvh;
+        position: absolute;
+    }
+
+    nav button {
+        width: 10px;
+        height: 30px;
+        color: white;
+        background-color: transparent;
+        border: none;
+    }
+
+    li a {
+        text-decoration: none;
+        color: white;
+        font-size: 22pt;
+    }
+
+    li {
+        padding-top: 30px;
+        list-style: none;
+    }
+
+    /* HEADER */
+
+    .mobile-header {
+        padding: 10px;
+        position: absolute;
+  
+        margin: 0;
+    }
+
+  
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 18pt;
+        font-weight: 300;
+    }
+    .mobile-header button {
+        height: 50px;
+        width: 50px;
+        background-color: transparent;
+        border: none;
+        color: black;
+        margin: 0;
+    }
+
+    body {
+        height: 100vh;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    
+    .buttons {
+        padding-left: 5px;
+       
+    }
+    
+    input {
+        border: none;
+        height: 30px;
+        background-color: white;
+        
+    }
+    
+    button {
+       margin: 20px;
+       margin-bottom: 30px;
+        background-color: white;
+        color: black;
+        font-size: 10pt;
+    }
+    
+    .ticks {
+        padding-left: 14px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+    .input-field {
+        border: 1px solid lightgray;
+        border-radius: 10px;
+        width: 210px;
+        margin: 10px;
+        
+    }
+    label {
+        /* padding: 11px; */
+        text-align: left;
+        margin: 10px;
+        
+    }
+    
+    .clear {
+        padding-top: 20px;
+    }
+
+    .container {
+        padding-top: 70px;
+        /* position: relative; */
+        
+        display: flex;
+       flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+ 
+
+}

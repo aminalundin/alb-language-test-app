@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hlg0mdj.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="mobile-header">
+        <button onclick="displayMenu()" id="menu-button"><i class="fa-solid fa-bars fa-2xl"></i></button>
+    </header>
+    <nav id="burger_menu" style="display:none;">
+        <button onclick="displayMenu()" id="close-menu"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+        <ul>
+            <li><a href="index.html">PART 1</a></li>
+            <li><a href="part-2.html">PART 2</a></li>
+            <li><a href="part-3.html">PART 3</a></li>
+            <li><a href="part-4.html">PART 4</a></li>
+            <li><a href="part-5.html">PART 5</a></li>
+            <li><a href="part-6.html">PART 6</a></li>
+            <li><a href="part-7.html">PART 7</a></li>
+            <li><a href="part-8.html">PART 8</a></li>
+            <li><a href="part-9.html">PART 9</a></li>
+            <li><a href="part-10.html">PART 10</a></li>
+            <li><a href="part-11.html">PART 11</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <form action="">
+            <label for="a-woman">A woman:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="a-woman" id="a-woman">
+                <div id="a-woman-pass" style="display:none;">&#9989;</div>
+                <div id="a-woman-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="a-woman">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="a-man">A man:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="a-man">
+                <div id="a-man-pass" style="display:none;">&#9989;</div>
+                <div id="a-man-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="a-man">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="im-woman">I am a woman:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="im-woman">
+                <div id="im-woman-pass" style="display:none;">&#9989;</div>
+                <div id="im-woman-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="im-woman">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="im-man">You are a man:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="im-man">
+                <div id="im-man-pass" style="display:none;">&#9989;</div>
+                <div id="im-man-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="im-man">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="a-girl">A girl:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="a-girl">
+                <div id="a-girl-pass" style="display:none;">&#9989;</div>
+                <div id="a-girl-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="a-girl">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="a-boy">A boy:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="a-boy">
+                <div id="a-boy-pass" style="display:none;">&#9989;</div>
+                <div id="a-boy-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="a-boy">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="she-girl">She is a girl:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="she-girl">
+                <div id="she-girl-pass" style="display:none;">&#9989;</div>
+                <div id="she-girl-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="she-girl">check</button></div> -->
+        </form>
+
+        <form action="">
+            <label for="he-boy">He is a boy:</label>
+            <div class="ticks">
+                <input class="input-field" type="text" name="man" id="he-boy">
+                <div id="he-boy-pass" style="display:none;">&#9989;</div>
+                <div id="he-boy-fail" style="display:none;">&#x274c;</div>
+            </div>
+            <!-- <div class="buttons"><button type="submit" id="he-boy">check</button></div> -->
+        </form>
+
+
+        <div class="clear">
+            <button type="reset" value="clear" id="clear-button">clear</button>
+            <button type="reset" value="check" id="check-button">check</button>
+            <button type="reset" value="clear form" id="clear-form-button">clear form</button>
+        </div>
+
+    </div>
+
+
+    <script src="script/p1-script.js"></script>
+</body>
+
+</html>

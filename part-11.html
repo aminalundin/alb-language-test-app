@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.typekit.net/hlg0mdj.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="mobile-header">
+        <button onclick="displayMenu()" id="menu-button"><i class="fa-solid fa-bars fa-2xl"></i></button>
+    </header>
+    <nav id="burger_menu" style="display:none;">
+        <button onclick="displayMenu()" id="close-menu"><i class="fa-solid fa-xmark fa-2xl"></i></button>
+        <ul>
+            <li><a href="index.html">PART 1</a></li>
+            <li><a href="part-2.html">PART 2</a></li>
+            <li><a href="part-3.html">PART 3</a></li>
+            <li><a href="part-4.html">PART 4</a></li>
+            <li><a href="part-5.html">PART 5</a></li>
+            <li><a href="part-6.html">PART 6</a></li>
+            <li><a href="part-7.html">PART 7</a></li>
+            <li><a href="part-8.html">PART 8</a></li>
+            <li><a href="part-9.html">PART 9</a></li>
+            <li><a href="part-10.html">PART 10</a></li>
+            <li><a href="part-11.html">PART 11</a></li>
+        </ul>
+    </nav>
+    
+    <div class="container">
+
+        <form action="">
+            <label for="sis">Older sister:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="sis" id="sis">
+                <div id="sis-pass" style="display:none;">&#9989;</div>
+                <div id="sis-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="his-sis">She is his older sister:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="his-sis" id="his-sis">
+                <div id="his-sis-pass" style="display:none;">&#9989;</div>
+                <div id="his-sis-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="bro">Older brother:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="bro" id="bro">
+                <div id="bro-pass" style="display:none;">&#9989;</div>
+                <div id="bro-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="her-bro">He is her older brother:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="her-bro" id="her-bro">
+                <div id="her-bro-pass" style="display:none;">&#9989;</div>
+                <div id="her-bro-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="y-sis">Younger sister:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="y-sis" id="y-sis">
+                <div id="y-sis-pass" style="display:none;">&#9989;</div>
+                <div id="y-sis-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="my-sis">I have three younger sisters:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="my-sis" id="my-sis">
+                <div id="my-sis-pass" style="display:none;">&#9989;</div>
+                <div id="my-sis-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="y-bro">Younger brother:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="y-bro" id="y-bro">
+                <div id="y-bro-pass" style="display:none;">&#9989;</div>
+                <div id="y-bro-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="one-bro">You have one younger brother:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="one-bro" id="one-bro">
+                <div id="one-bro-pass" style="display:none;">&#9989;</div>
+                <div id="one-bro-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="sib">Sibling:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="sib" id="sib">
+                <div id="sib-pass" style="display:none;">&#9989;</div>
+                <div id="sib-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+        <form action="">
+            <label for="t-sib">They are my siblings:</label><br>
+            <div class="ticks">
+                <input class="input-field" type="text" name="t-sib" id="t-sib">
+                <div id="t-sib-pass" style="display:none;">&#9989;</div>
+                <div id="t-sib-fail" style="display:none;">&#x274c;</div>
+            </div>
+        </form>
+
+
+
+
+        <div class="clear">
+            <button type="reset" value="clear form" id="clear-form-button">clear form</button>
+            <button type="reset" value="clear" id="clear-button">clear</button>
+            <button type="reset" value="check" id="check-button">check</button>
+        </div>
+
+    </div>
+
+
+    <script src="script/p11-script.js"></script>
+</body>
+
+</html>
